@@ -1,16 +1,12 @@
-#ReadMe file for Run Analysis Dataset
+##ReadMe file for Run Analysis Dataset
 
-This repo includes the following files:
+###This repo includes the following files:
 
 -Readme.md - contains scripts for downloading data and running the analysis
-
 -Codebook.md - provides detailed information describing the orginal variables in the UCI HAR dataset
-		and the steps for transformating the data into a tidy data set
-
+	       and the steps for transformating the data into a tidy data set
 -downloadZIP.r - script for download the original dataset
-
 -run_analysis.r - script for tidying up the data
-
 -run_analysis.txt - output file for tidy data
 
 ###downloadZip.R
@@ -20,8 +16,8 @@ fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%2
 download.file(fileUrl,destfile="c:/DataScienceFiles/DataScience_Project/samsungdata.zip")
 unzip("c:/DataScienceFiles/DataScience_Project/samsungdata.zip",overwrite=TRUE,unzip="internal")
 
-###run_analysis.R - use this script to process the raw data into the run_analysis tidy dataset
-
+###run_analysis.R 
+Use this script to process the raw data into the run_analysis tidy dataset.
 This script takes data from UCI HAR and provides a tiny data set with averages for mean and standard deviation for each subject and activity
 
 ####assigning variables to the various files

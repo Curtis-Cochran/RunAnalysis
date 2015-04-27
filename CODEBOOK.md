@@ -37,57 +37,57 @@
 
 ###Set of variables that were estimated from these features:
 
-  mean(): 
-	-numerical
-	-Mean value
-  std(): 
-	-numerical
-	-Standard deviation
-  mad(): 
-	-numerical
-	-Median absolute deviation 
-  max(): 
-	-numerical 
-	-Largest value in array
-  min(): 
-	-numerical 
-	-Smallest value in array
-  sma(): 
-	-numerical 
-	-Signal magnitude area
-  energy(): 
-	-numerical 
-	-Energy measure. Sum of the squares divided by the number of values. 
-  iqr(): 
-	-numerical
-	-Interquartile range 
-  entropy(): 
-	-numerical
-	-Signal entropy
-  arCoeff(): 
-	-numerical 
-	-Autorregresion coefficients with Burg order equal to 4
-  correlation(): 
-	-numerical
-	-correlation coefficient between two signals
-  maxInds(): 
-	-numerical
-	-index of the frequency component with largest magnitude
-  meanFreq(): 
-	-numerical
-	-Weighted average of the frequency components to obtain a mean frequency
-  skewness(): 
-	-numerical
-	-skewness of the frequency domain signal 
-  kurtosis(): 
-	-numerical
-	-kurtosis of the frequency domain signal 
-  bandsEnergy(): 
-	-numerical
-	-Energy of a frequency interval within the 64 bins of the FFT of each window.
-  angle(): 
-	-numerical
-	-Angle between to vectors.
+  	mean(): 
+		-numerical
+		-Mean value
+	  std(): 
+		-numerical
+		-Standard deviation
+	  mad(): 
+		-numerical
+		-Median absolute deviation 
+	  max(): 
+		-numerical 
+		-Largest value in array
+	  min(): 
+		-numerical 
+		-Smallest value in array
+	  sma(): 
+		-numerical 
+		-Signal magnitude area
+	  energy(): 
+		-numerical 
+		-Energy measure. Sum of the squares divided by the number of values. 
+	  iqr(): 
+		-numerical
+		-Interquartile range 
+	  entropy(): 
+		-numerical
+		-Signal entropy
+	  arCoeff(): 
+		-numerical 
+		-Autorregresion coefficients with Burg order equal to 4
+	  correlation(): 
+		-numerical
+		-correlation coefficient between two signals
+	  maxInds(): 
+		-numerical
+		-index of the frequency component with largest magnitude
+  	meanFreq(): 
+		-numerical
+		-Weighted average of the frequency components to obtain a mean frequency
+  	skewness(): 
+		-numerical
+		-skewness of the frequency domain signal
+	kurtosis(): 
+		-numerical
+		-kurtosis of the frequency domain signal 
+  	bandsEnergy(): 
+		-numerical
+		-Energy of a frequency interval within the 64 bins of the FFT of each window.
+  	angle(): 
+		-numerical
+		-Angle between to vectors.
 
 
 ###For the Run_Analyss tidy dataset, the mean and standard deviation were included for each feature as described below:
