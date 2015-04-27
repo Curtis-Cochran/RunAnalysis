@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-RunAnalysis
+###RunAnalysis
 
-ReadMe file for Run Analysis Dataset
+##ReadMe file for Run Analysis Dataset
 
 This repo includes the following files:
 
@@ -92,6 +91,3 @@ myTidyGroup <- myTidyData %>% group_by(subject_id,activity_id)
 myTidyGroup <- myTidyGroup %>% summarise_each(funs(mean))
 
 write.table(myTidyGroup,file="run_analysis.txt",row.name=F)
-=======
-# RunAnalysis
->>>>>>> d7650936f632220331b2275dcdfef947ebc49f84
