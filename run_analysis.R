@@ -1,4 +1,4 @@
-#This script takes data from XXX and provides a tiny data set with averages for mean
+#This script takes data from UCI HAR and provides a tiny data set with averages for mean
 #and standard deviation for each subject and activity
 
 #assigning variables to the various files
